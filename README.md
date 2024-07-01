@@ -65,6 +65,19 @@ $ php artisan key:generate
 # Bases de datos
 ### Configuración y creación de base de datos.
 ## DB LARAVEL STORE
+
+
+Puedes crear la base de datos ejecutando el siguiente script:
+
+```sql
+DROP DATABASE IF EXISTS dblaravelstore;
+CREATE DATABASE dblaravelstore
+   CHARACTER SET = 'utf8mb4'
+   COLLATE = 'utf8mb4_unicode_ci';
+```
+o de lo contrario:
+#### EN LA RAÍZ DEL PROYECTO SE ENCUENTRA UN RESPALDO DE LA BASE DE DATOS DEL PROYECTO: dblaravelstore.sql
+
 ### Configuración de la conexión
 ```
 DB_CONNECTION=mysql
@@ -84,7 +97,7 @@ composer install
 ### Migraciones con Laravel
 Ejecutar los siguientes comandos para aplicar las migraciones e inicializar la base datos.
 ```
-php artisan migrate:fresh --seed
+php artisan migrate --seed
 ```
 
 # Compilar
