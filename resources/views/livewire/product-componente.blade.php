@@ -62,7 +62,7 @@
                         @foreach($this->products as $product)
                             <div class="w-full sm:w-full md:w-full px-2 mb-4">
                                 <div class="bg-white rounded-lg overflow-hidden shadow-md">
-                                    <img src="{{'storage/photo.png'}}" alt="Product"
+                                    <img src="{{'photo.png'}}" alt="Product"
                                          class="object-cover w-full h-72 md:h-72">
                                     <div class="p-4">
                                         <h2 class="font-semibold text-lg">{{$product->nombre}}</h2>
