@@ -84,7 +84,7 @@ composer install
 ### Migraciones con Laravel
 Ejecutar los siguientes comandos para aplicar las migraciones e inicializar la base datos.
 ```
-php artisan migrate --seed
+php artisan migrate:fresh --seed
 ```
 
 # Compilar

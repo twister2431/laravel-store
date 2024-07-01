@@ -35,7 +35,7 @@
                         <input
                             wire:model.live="buscar"
                             class="appearance-none block w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-                            id="grid-first-name" type="text" placeholder="Busque por el nombre, precio o marca">
+                            id="grid-first-name" type="text" placeholder="Escribe el nombre del producto, precio o marca">
                         <p class="text-red-500 text-xs italic"></p>
                     </div>
                 </div>

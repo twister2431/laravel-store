@@ -35,5 +35,6 @@ INSERT INTO `products` VALUES (3, 'Biore Charcoal Acne Clearing Cleanser', 'Limp
 INSERT INTO `products` VALUES (4, 'Clinique City Block Purifying Charcoal Cleansing Gel', 'Gel limpiador con carbón que purifica la piel y elimina las impurezas.', 'product/photo-1.png', 50.00, 4, '2024-06-30 10:04:30', NULL);
 INSERT INTO `products` VALUES (5, 'Neutrogena Deep Clean Purifying Cleanser/Mask with Charcoal', 'Limpiador y mascarilla con carbón que purifica profundamente la piel.', 'product/photo-1.png', 30.00, 3, '2024-06-30 10:05:16', NULL);
 
+INSERT INTO `users` VALUES (1, 'MARLON MANUEL MENA CHABLE', 'supermario@admin.com', NULL, '$2y$12$67uaXskU9H65Sld87Gy1lu22Dogx/nLVON7AAaJCENHoDzo/T9jo.', NULL, NULL, NULL, NULL, NULL, NULL, '2024-06-30 15:18:50', '2024-06-30 15:18:50');
 
 SET FOREIGN_KEY_CHECKS = 1;
