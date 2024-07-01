@@ -29,22 +29,22 @@
             </div>
         </div>
         <div class="flex-1">
-            <form class="w-full max-w-lg mt-5 mx-auto flex items-center">
-                <div class="flex items-center w-full">
-                    <div class="w-full md:w-2/3 px-5">
+            <div class="w-full max-w-lg mt-5 mx-auto">
+                <form class="flex justify-center">
+                    <div class="w-full px-5">
                         <input
                             wire:model.live="buscar"
-                            class="appearance-none block w-full md:w-full text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                            class="appearance-none block w-full text-gray-700 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
                             id="grid-first-name" type="text" placeholder="Escribe el nombre del producto, precio o marca">
                         <p class="text-red-500 text-xs italic"></p>
                     </div>
-                </div>
-            </form>
-            <form>
-                <div class="flex justify-end mt-5">
-                    <div class="w-1/4 md:w-1/3 px-5 text-right">
+                </form>
+            </div>
+            <div class="w-full w-11/12 mt-5 mx-auto">
+                <form class="flex justify-end mt-5">
+                    <div class="w-1/4 md:w-1/3 px-5 justify-self-end">
                         <select wire:model.live="itemsPerPage"
-                                class="block appearance-none w-9 md:w-auto bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded leading-tight focus:outline-none focus:shadow-outline">
+                                class="block appearance-none w-2/4 justify-end bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded leading-tight focus:outline-none focus:shadow-outline">
                             <option value="2">2 registros</option>
                             <option value="5">5 registros</option>
                             <option value="12">12 registros</option>
@@ -53,9 +53,8 @@
                             <option value="100">100 registros</option>
                         </select>
                     </div>
-                </div>
-            </form>
-
+                </form>
+            </div>
             <div class="flex mt-8">
                 <div class="max-w-7xl mx-auto">
                     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
